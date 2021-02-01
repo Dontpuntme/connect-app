@@ -115,15 +115,21 @@ export default function Home() {
 
       
       <main className={styles.main}>
-        <div style= {{ width: '600px', height: '100px'}}>
+        <div style= {{ width: '600px', height: '300px',}}>
           <div style= {{ width: '50px', float: 'left'}} >
-          <ProfileAvatar></ProfileAvatar>
+          <ProfileAvatar ></ProfileAvatar>
           </div>
-          <div style= {{ width: '300px', float: 'right'}} ><p>Profile Name</p>
+          <div style= {{ width: '300px', float: 'right', font: 'bold 25px Maven Pro',}} ><p>Profile Name</p>
+          
           </div>
+          </div>
+          <div style= {{ width: '300px', float: 'left', font: 'bold 16px Maven Pro',}} >
+          <header >Bio</header>
+          <p style = {{ font: '14px Regular',}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor metus vitae nibh tempor tincidunt. Fusce posuere.</p>
+          <header >Interests</header>
           </div>
           <div></div>
-          <header>Bio</header>
+          <div style={{borderRadius: '8px', backgroundColor: '#43A047', height: '20px', width:'50px'}}>test</div>
       </main>
       <footer className={styles.footer}>
         <a
